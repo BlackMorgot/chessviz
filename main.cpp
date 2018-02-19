@@ -11,6 +11,6 @@ int main()
             std::cout << '\n';
             flag = !flag;
         }
-        std::cout << (i & 1 ^ flag ? '*' : ' ');
+        std::cout << (i && 1 ^ flag ? '*' : ' ');
     }
 }
